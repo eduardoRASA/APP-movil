@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/my_navinv" app:startDestination="@+id/presasInvFragment">
+    <fragment android:label="fragment_presas" android:name="com.example.movil.models.PresasFragment" android:id="@+id/presasInvFragment"/>
+    <fragment android:label="fragment_tanques" android:name="com.example.movil.models.TanquesFragment" android:id="@+id/tanquesInvFragment"/>
+    <fragment android:label="fragment_depositos" android:name="com.example.movil.models.DepositosFragment" android:id="@+id/depositosInvFragment"/>
+</navigation>
